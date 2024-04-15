@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="icon-div">
+    <i class="fas fa-arrow-right go-back-icon" id="back-btn"></i>
+</div>
+    <div class="profile-container">
+        <h1>User Profile</h1>
+        <p>Username: <span id="username"></span></p>
+        <p>Full Name: <span id="fullname"></span></p>
+        <img src="" alt="Profile Image" id="profile-image">
+        <div class="Upload-img">
+        <input type="file" id="profile-image-input" class="custom-file-input">
+        <label for="profile-image-input" class="custom-file-input">Choose Profile Image</label>
+         </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.3.2/socket.io.js"></script>
+    <script type="module" src="js/profile.js"></script>
+</body>
+</html>

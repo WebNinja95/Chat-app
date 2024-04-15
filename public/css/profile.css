@@ -1,0 +1,75 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #333;
+}
+
+/* Profile container styling */
+.profile-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styling */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+/* Profile image styling */
+#profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.Upload-img{
+    display: flex;
+    justify-content: center;
+}
+.custom-file-input {
+    display: inline-block;
+    background-color: #fc536d;/* Button background color */
+    color: #fff; /* Button text color */
+    padding: 8px 12px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #profile-image-input {
+    display: none; /* Hide the default file input */
+  }
+  .custom-file-input:hover {
+    background-color: #666; /* Button background color on hover */
+  }
+  .go-back-icon{
+    font-size: 24px;
+    color: #fff; /* Adjust color as needed */
+    cursor: pointer;
+  }
+  .icon-div{
+    display: flex;
+    justify-content: end;
+    padding: 8px;
+}
